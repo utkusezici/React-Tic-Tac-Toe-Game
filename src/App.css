@@ -1,0 +1,65 @@
+/* Square */
+.square{
+  background: white;
+  border:1px solid gray;
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  font-size: 50px;
+  line-height: 80px;
+  cursor: pointer;
+
+}
+.square:focus{
+  outline: none;
+}
+
+/* Board */
+.board-row{
+  width: 20em;
+  clear: both;
+  content: "";
+  display: table;
+  margin: 0 auto;
+}
+
+/* Game */
+.game{
+ width: 30em;
+ height: 30em;
+ margin: 10em auto;
+}
+.game-board{
+  float: left;
+}
+/* Game info */
+
+.game-info{
+  margin-left: 20px;
+  font-size: 20px;
+  color: red;
+}
+.newGameButton{
+  background-color: #4292ED;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 1em;
+ border: 0;
+ -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.233);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+.newGameButton:hover{
+  background-color: #0D5FBC;
+  transition: 500ms;
+}
+.newGameButton:focus {outline:0;}
